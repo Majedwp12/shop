@@ -31,7 +31,7 @@ def search_item(name: str, namelist: list):
 def view_shopping(bye_list: list) -> str:
     print('This is your shopping list : ')
     for product in bye_list:
-        print(f'-{product}')
+        print(f'>{product}')
 
 
 def help(edeite):
@@ -64,5 +64,4 @@ def go_help():
 
 
 def cler_ter():
-
     os.system('cls' if os.name=='nt' else 'clear')

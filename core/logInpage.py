@@ -2,7 +2,7 @@ from account.Create_account import singUp
 from account.Log_account import login
 from getpass import getpass
 from conf import *
-from admin_page import main_admin
+from core.admin_page import main_admin
 import logging
 logger = logging.getLogger(__name__)
 
